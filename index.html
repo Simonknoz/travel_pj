@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Project</title>
+    <link
+      href="https://adventure-travel-guru.com/wp-content/uploads/2019/12/Logo.png"
+      rel="icon"
+      type="image/jpg"
+      sizes="10x10"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <!-- Preloader Start -->
+    <div class="preloader"></div>
+    <!-- Preloader End -->
+
+    <!-- Navbar Start -->
+    <nav class="nav__bar">
+      <div class="container flex jc-sb">
+        <a href="index.html" class="logo">
+          <img
+            src="https://adventure-travel-guru.com/wp-content/uploads/2019/12/Logo.png"
+            alt="logo"
+            class="img-logo"
+          />
+        </a>
+        <div class="overlay"></div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list flex">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="destination.html" class="nav__link">Destinations</a>
+            </li>
+            <li class="nav__item relative drop">
+              <span class="nav__link flex">
+                Info
+                <i class="fas fa-chevron-down down-icon"></i>
+              </span>
+              <div class="drop__down">
+                <div class="triangle-wrapper">
+                  <div class="triangle"></div>
+                </div>
+                <ul class="drop__down-list">
+                  <li class="drop__down-item">
+                    <a href="aboutMyanmar.html" class="drop__down-link">
+                      About Myanmar
+                    </a>
+                  </li>
+                  <li class="drop__down-item">
+                    <a href="#" class="drop__down-link">
+                      Festivals Information of Myanmar
+                    </a>
+                  </li>
+                  <li class="drop__down-item">
+                    <a href="#" class="drop__down-link">
+                      Cruises Information
+                    </a>
+                  </li>
+                  <li class="drop__down-item">
+                    <a href="#" class="drop__down-link"> Flight Information </a>
+                  </li>
+                  <li class="drop__down-item">
+                    <a href="#" class="drop__down-link"> Hotel Information </a>
+                  </li>
+                  <li class="drop__down-item">
+                    <a href="#" class="drop__down-link">Tips</a>
+                  </li>
+                  <li class="drop__down-item">
+                    <a href="#" class="drop__down-link"> Terms & Conditions </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__item">
+              <a href="login.html" class="nav__link">Login</a>
+            </li>
+          </ul>
+        </div>
+        <div class="toggle__menu" id="toggle-menu">
+          <div class="bar bar1"></div>
+          <div class="bar bar2"></div>
+          <div class="bar bar3"></div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- header Start -->
+    <header class="header">
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide1"></div>
+          <div class="swiper-slide slide2"></div>
+          <div class="swiper-slide slide3"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="swiper-button-next next-btn">
+          <i class="fas fa-chevron-right arrow-icon"></i>
+        </div>
+        <div class="swiper-button-prev prev-btn">
+          <i class="fas fa-chevron-left arrow-icon"></i>
+        </div>
+        <div class="header__content">
+          <h1>Discover Myanmar</h1>
+          <div class="input__group">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              class="search"
+              autocomplete="off"
+              placeholder="Search..."
+            />
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+          <p class="header-para">Travel with unique experience</p>
+        </div>
+      </div>
+      <a href="#greeting" class="get-start">
+        <div class="dot"></div>
+      </a>
+    </header>
+    <!-- header End -->
+
+    <!-- Main Start -->
+    <main class="main">
+      <div class="container">
+        <!-- Greeting Section -->
+        <section class="greeting" id="greeting">
+          <div class="quote open">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <div class="quote close">
+            <i class="fas fa-quote-right"></i>
+          </div>
+          <div class="greeting__content">
+            <h1>Golden Land Myanmar</h1>
+            <p>
+              Myanmar is a country in Southeast Asia and it is bordered by
+              Bangladesh and India to its northwest, China to its northeast,
+              Laos and Thailand to its east and southeast, and the Andaman Sea
+              and the Bay of Bengal to its south and southwest. Myanmar is the
+              largest country in mainland south-east Asia and has a population
+              of about 60 million. The biggest city is Yangon(Rangoo) but the
+              capital is Nay Pyi Taw, and Burmese is the most commonly spoken
+              language.
+            </p>
+            <p>
+              The country is home to more than 135 different ethnicities. If you
+              look into the geography facts on Myanmar, you can see that a
+              number of groups live in the different regions. Each has their own
+              culture and traditions. You can find some with a special one
+              legged rowing technique at Inle Lake and others wear heavy rings
+              to stretch their necks. The main ethnic group, the Burma, make up
+              about 70% of the populations.
+            </p>
+          </div>
+        </section>
+
+        <!-- Destination Section -->
+        <section class="destination">
+          <div class="row">
+            <div class="col-lg-3 col-sm-12 left">
+              <h2 class="section-title">Hot Destination</h2>
+              <p>
+                These are the top 6 most visit destination places of Myanmar.
+              </p>
+            </div>
+            <div class="col-lg-9 col-sm-12 right">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card">
+                    <div class="img-box">
+                      <img
+                        src="https://cdn.pixabay.com/photo/2016/08/08/09/47/myanmar-1577961_960_720.jpg"
+                        alt="bagan"
+                      />
+                      <a href="bagan.html" class="card-btn">
+                        <i class="fas fa-chevron-right"></i>
+                      </a>
+                    </div>
+                    <h3>Bagan</h3>
+                    <p>
+                      Bagan is the number one attraction in Myanmar – and for
+                      good reason – you simply cannot skip it!
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card">
+                    <div class="img-box">
+                      <img
+                        src="https://cdn.pixabay.com/photo/2014/02/06/09/08/golden-temple-259800_960_720.jpg"
+                        alt="yangon"
+                      />
+                      <a href="#" class="card-btn">
+                        <i class="fas fa-chevron-right"></i>
+                      </a>
+                    </div>
+                    <h3>Yangon</h3>
+                    <p>
+                      Yangon has so much to see and do in this exciting and
+                      colorful metropolis –from Buddhist monuments to scenic
+                      parks and lakes.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card">
+                    <div class="img-box">
+                      <img
+                        src="https://images.pexels.com/photos/8161525/pexels-photo-8161525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        alt="mandalay"
+                      />
+                      <a href="mandalay.html" class="card-btn">
+                        <i class="fas fa-chevron-right"></i>
+                      </a>
+                    </div>
+                    <h3>Mandalay</h3>
+                    <p>
+                      Myanmar’s second-largest city is a charming yet convoluted
+                      place_Mandalay.There’s a fair amount of ground to cover in
+                      Mandalay
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card">
+                    <div class="img-box">
+                      <img
+                        src="https://www.dsavacations.com/wp-content/uploads/2019/07/Inle-Lake-Shan-state-Myanmar.jpg"
+                        alt="inle"
+                      />
+                      <a href="#" class="card-btn">
+                        <i class="fas fa-chevron-right"></i>
+                      </a>
+                    </div>
+                    <h3>Inle Lake</h3>
+                    <p>
+                      The Lake Inle region is a picturesque place famous for its
+                      unusual floating villages, pretty gardens, and glorious
+                      temples.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card">
+                    <div class="img-box">
+                      <img
+                        src="https://www.experiencetravelgroup.com/reposit/20180417085940.jpg"
+                        alt="ngapali"
+                      />
+                      <a href="#" class="card-btn">
+                        <i class="fas fa-chevron-right"></i>
+                      </a>
+                    </div>
+                    <h3>Ngapali</h3>
+                    <p>
+                      Ngapali is the most popular beach destination in Myanmar.
+                      Located on the spectacular Bay of Bengal
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card">
+                    <div class="img-box">
+                      <img
+                        src="https://tse1.mm.bing.net/th?id=OIP.8PRo8onqgzmAQ3DF1JSHIAHaE6&pid=Api&P=0&w=286&h=190"
+                        alt="maruku"
+                      />
+                      <a href="#" class="card-btn">
+                        <i class="fas fa-chevron-right"></i>
+                      </a>
+                    </div>
+                    <h3>Mrauk U</h3>
+                    <p>
+                      Mrauk U – once known as Mrohaung – is an abandoned city
+                      with strong archaeological importance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Video Section Start -->
+      <section class="vd-section">
+        <div class="vd-section__content">
+          <h2 class="section-title">Watch Our Video Tour</h2>
+          <div class="vd">
+            <iframe
+              src="https://www.youtube.com/embed/DX48mJjL7oU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- Video Section End -->
+
+      <!-- Popular Tour Section Start -->
+      <section class="popular-tour">
+        <div class="container popular-tour__content">
+          <h2 class="section-title">Popular Tour</h2>
+          <div class="swiper-container mySwiper2 col-10 p-3 py-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide card col-lg-3 shadow">
+                <div class="img-box">
+                  <img
+                    src="https://theworldtravelguy.com/wp-content/uploads/2020/11/DSCF3024_1200.jpg"
+                    alt="Shwezigon Pagoda"
+                  />
+                </div>
+                <div class="text">
+                  <h3>Shwezigon Pagoda</h3>
+                  <p>It locates in Bagan.</p>
+                </div>
+              </div>
+              <div class="swiper-slide card col-3 shadow">
+                <div class="img-box">
+                  <img
+                    src="https://youimg1.tripcdn.com/target/100d1f000001gou3d76F1.jpg?proc=source%2Ftrip"
+                    alt="Shwedagon Pagoda"
+                  />
+                </div>
+                <div class="text">
+                  <h3>Shwedagon Pagoda</h3>
+                  <p>It locates in Yangon.</p>
+                </div>
+              </div>
+              <div class="swiper-slide card col-3 shadow">
+                <div class="img-box">
+                  <img
+                    src="https://www.myanmartours.us/wp-content/uploads/Maha-Myat-Muni-Pagoda-Mandalay-Myanmar.jpg"
+                    alt="Maha Myat Muni Pagoda"
+                  />
+                </div>
+                <div class="text">
+                  <h3>Maha Myat Muni Pagoda</h3>
+                  <p>It locates in Mandalay.</p>
+                </div>
+              </div>
+              <div class="swiper-slide card col-3 shadow">
+                <div class="img-box">
+                  <img
+                    src="https://www.vivutravel.com/images/des-myanmar1/myanmar-tour-phaungdawoo-pagoda.jpg"
+                    alt="Alodaw Pauk Pagoda"
+                  />
+                </div>
+                <div class="text">
+                  <h3>Alodaw Pauk Pagoda</h3>
+                  <p>It locates in Shan State.</p>
+                </div>
+              </div>
+              <div class="swiper-slide card col-3 shadow">
+                <div class="img-box">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/51a39504e4b093105c265c24/1493137500579-H2Y825ZCFQGMUV5R9UOP/glenn-guy-golden-rock-myanmar.jpg?format=1000w"
+                    alt="The Golden Rock"
+                  />
+                </div>
+                <div class="text">
+                  <h3>The Golden Rock</h3>
+                  <p>It locates in Mon State.</p>
+                </div>
+              </div>
+              <div class="swiper-slide card col-3 shadow">
+                <div class="img-box">
+                  <img
+                    src="https://www.pronititravel.com/wp-content/uploads/2018/05/7_ef3079fd.jpg"
+                    alt="Putao"
+                  />
+                </div>
+                <div class="text">
+                  <h3>Putao</h3>
+                  <p>It locates in Kachin State.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper-button-next popular-next-btn">
+            <i class="fas fa-chevron-right arrow-icon"></i>
+          </div>
+          <div class="swiper-button-prev popular-prev-btn">
+            <i class="fas fa-chevron-left arrow-icon"></i>
+          </div>
+        </div>
+      </section>
+      <!-- Popular Tour Section End -->
+
+      <!-- Map Section Start -->
+      <section class="map-section">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15470306.283438051!2d87.62868486389492!3d18.80126174855024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x305652a7714e2907%3A0xba7b0ee41c622b11!2sMyanmar%20(Burma)!5e0!3m2!1sen!2smm!4v1624809272878!5m2!1sen!2smm"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
+      <!-- Map Section End -->
+    </main>
+    <!-- Main End -->
+    <!-- Footer Section Start -->
+    <footer class="footer">
+      <div class="container mb-3">
+        <div class="row">
+          <div class="col-lg-8 col-md-12 mb-md-4">
+            <div class="row">
+              <div class="col-lg-3 col-md-4 mb-sm-3 px-sm-0 mb-4">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a href="#">About Myanmar</a></li>
+                  <li><a href="#">Festivals Myanmar</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-4 mb-sm-3 px-sm-0 mb-4">
+                <h3>Address</h3>
+                <ul>
+                  <li>
+                    <a href="#">
+                      Address l-9/19(A),60 Street, Between Theik Pan Street And,
+                      Aung San St, Mandalay, Myanmar (Burma)
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-5 px-md-4 col-md-4 px-sm-0 mb-4">
+                <h3>Contact</h3>
+                <ul>
+                  <li>
+                    <a href="mailto:dataland@gmail.com"> dataland@gmail.com </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-icon">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 flex">
+            <h3>
+              <label for="email"> Subscribe to our newsletter </label>
+            </h3>
+            <form action="" method="" class="form" id="form">
+              <div class="email-group">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="email"
+                  placeholder="Your email"
+                  autocomplete="off"
+                />
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 copyright">
+        <p>Adventure Travel Guru©All Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- Scroll To Top Start -->
+    <div class="scroll-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+    <!-- Scroll To Top End -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e4fdbc0c51.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
